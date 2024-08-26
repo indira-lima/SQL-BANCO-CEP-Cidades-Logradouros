@@ -18,6 +18,12 @@ O campo descricao_sem_numero é uma derivação do campo descricao da tabela de 
 
 A base de CEPs do Brasil pode possuir inconsistências, por exemplo, nos nomes dos logradouros. Além disso, novos CEPs podem ser criados e outros modificados. Caso você encontre algum ajuste que precise ser feito nessa base de dados, fique à vontade para nos enviar e faremos a atualização.
 
+## Descompactando os arquivos
+
+Para descompactar é necessário ter o [7-Zip](https://www.7-zip.org) instalado no computador.
+
+O conteúdo está separado em três arquivos com finais 001, 002 e 003. Para extrair, basta fazer o download de todos, clicar no primeiro arquivo com o botão direito do mouse e depois em 7-Zip > Extrair arquivos. Escolha a pasta de destino e, após a extração, você terá os dois arquivos mostrados no vídeo: `cidade.sql` e `logradouro.sql`.
+
 ## Consultas comuns
 
 ### Exibindo lista de cidades por uma determinada UF
